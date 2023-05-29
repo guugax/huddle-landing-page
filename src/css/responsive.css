@@ -1,0 +1,95 @@
+@media (max-width: 1024px) {
+
+    .container .container-right .title {
+        font-size: 30px;
+        max-width: 100%;
+        min-width: 300px;
+    }
+
+    .container .container-right .descricao {
+        font-size: 16px;
+    }
+
+    .container .container-right .social {
+        bottom: -30%;
+        left: 39%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--violet);
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 40px;
+        gap: 40px;
+    }
+
+    .container .container-left .logo {
+        min-width: 160px;
+        padding-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .container .container-left .img-principal {
+        min-width: 320px;
+
+    }
+
+    .container .container-right {
+        text-align: center;
+        align-items: center;
+    }
+
+    .container .container-right .title {
+        font-size: 25px;
+        max-width: 335px;
+        min-width: 300px;
+        margin-top: 40px;
+    }
+
+    .container .container-right .descricao {
+        margin-bottom: 20px;
+        min-width: 340px;
+        font-size: 18px;
+    }
+
+    .container .container-right .btn {
+        padding: 10px;
+        width: 200px;
+    }
+
+    .container .container-right .social {
+        bottom: -43%;
+        left: 36%;
+        padding-bottom: 40px;
+    }
+
+    .container .container-right .social a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .container .container-right .social {
+        left: 28%;
+    }
+
+    .container .container-right .social a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+
+}
